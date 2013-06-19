@@ -1,0 +1,18 @@
+body {
+	width: 100%;
+}
+
+#main_container {
+	margin: 0px auto 0px auto;
+	width: 250px;
+}
+
+#main_heading {
+	text-align: center;
+}
+
+.box_cell {
+	border: 1px solid black;
+	width: 75px;
+	height: 75px;
+}
