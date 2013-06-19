@@ -102,14 +102,4 @@ $(document).ready(function(){
 		check_winner();
 	});
 
-	$('#make_button').click(function(){
-		node = $('<p>');
-		node.text('This is a new node');
-		node.addClass('new_node')
-		$('#box_0_0').append(node);
-	})
-
-	$('#destroy_button').click(function(){
-		$('.new_node').remove();
-	})
 })
